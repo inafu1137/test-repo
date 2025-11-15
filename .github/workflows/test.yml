@@ -6,8 +6,8 @@ jobs:
   test: 
   runs-on: ubunts-latest
   steps: 
-    -uses: actions/checkout@v4
-    -uses: actions/setup-go@v5
+    - uses: actions/checkout@v4
+    - uses: actions/setup-go@v5
       with:
         go-version: '1.22'
-    -run: go test go/excellent/*.go 
+    - run: go test go/excellent/*.go 
